@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Culinary Spot - A Taste of Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="top_bar_nav_area">
+        <div class="container">
+            <h1 class="brand_logo_text">Spice & Spoon</h1>
+            <nav class="main_menu_links">
+                <ul>
+                    <li><a href="#welcome_spot">Home</a></li>
+                    <li><a href="#taste_gallery">Menu</a></li>
+                    <li><a href="#our_story">About</a></li>
+                    <li><a href="#book_table">Reserve</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="welcome_spot" class="main_welcome_spot">
+        <div class="spot_content">
+            <h2>Experience Authentic Flavors</h2>
+            <p>In every dish, you will taste the warmth of love and the richness of tradition.</p>
+            <a href="#taste_gallery" class="cta_button_view_menu">View Our Menu</a>
+        </div>
+    </section>
+
+    <section id="taste_gallery" class="taste_gallery_section container">
+        <h3>Our Signature Dishes</h3>
+        <p class="section_subtitle">The best sellers that everyone loves.</p>
+        
+        <div class="dish_card_grid">
+            
+            <div class="dish_item_box">
+                <img src="/images.jpeg" alt="Hyderabadi Biryani">
+                
+                <h4>Royal Biryani</h4>
+                <p class="dish_desc">Aromatic basmati rice cooked with secret spices.</p>
+                <span class="dish_price">1499rs</span>
+            </div>
+
+            <div class="dish_item_box">
+                <img src="/download.jpeg" alt="Seekh Kebab">
+                <h4>Sizzling Kebab Platter</h4>
+                <p class="dish_desc">Tender minced meat grilled to smoky perfection.</p>
+                <span class="dish_price">1399rs</span>
+            </div>
+
+            <div class="dish_item_box">
+                <img src="/images (1).jpeg" alt="Butter Chicken">
+                <h4>Velvet Butter Curry</h4>
+                <p class="dish_desc">Creamy tomato gravy with succulent chicken pieces.</p>
+                <span class="dish_price">1799rs</span>
+            </div>
+
+            </div>
+    </section>
+
+    <section id="our_story" class="our_story_chapter">
+        <div class="container story_flex">
+            <div class="story_image_half">
+                <img src="/images (2).jpeg" alt="Interior of the Restaurant">
+            </div>
+            <div class="story_content_half">
+                <h3>Our Humble Beginnings</h3>
+                <p>Spice & Spoon began with a small dream — to serve food that creates memories.</p>
+                <p>From our family recipes to your table, every dish tells a story of love and tradition.</p>
+                <p>We believe in the magic of spices and the joy of sharing a meal with loved ones.</p>
+                <p>Join us in celebrating flavors that feel like home.</p>
+
+                
+
+            </div>
+        </div>
+    </section>
+
+    <section id="book_table" class="book_a_table_zone">
+        <div class="container">
+            <h3>Book Your Experience</h3>
+            <form class="reservation_form_box">
+                <div class="form_group_unit">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="customer_name" required>
+                </div>
+                <div class="form_group_unit">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="booking_date" required>
+                </div>
+                <div class="form_group_unit">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="booking_time" required>
+                </div>
+                <div class="form_group_unit">
+                    <label for="guests">Guests</label>
+                    <input type="number" id="guests" name="number_of_guests" min="1" max="10" required>
+                </div>
+                <button type="submit" class="submit_reserve_btn">Confirm Reservation</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="end_note_info">
+        <div class="container footer_flex_content">
+            <div class="contact_details">
+                <p>lohegaon pune</p>
+                <p>+91 7903271527</p>
+                <p>aditya790327@gmail.com</p>
+            </div>
+            <div class="copyright_text">
+                <p>&copy; 2025 Spice & Spoon. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
